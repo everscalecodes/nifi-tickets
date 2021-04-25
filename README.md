@@ -1,9 +1,9 @@
 # TON Tickets QR-generator
 ## Requirements
-* Ubuntu 20.04
-* Docker
-* Docker Compose
-* [Monitoring](https://github.com/kokkekpek/monitoring)
+* [Ubuntu](https://ubuntu.com)  >= `20.04`
+* [Docker](https://www.docker.com)  >= `20.x`
+* [Docker Compose](https://docs.docker.com/compose/install/) >= `1.25.x`
+* [Monitoring](https://github.com/kokkekpek/monitoring)  >= `1.x`
 
 ## Installation
 ### Install packages
