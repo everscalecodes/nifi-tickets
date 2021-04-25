@@ -1,0 +1,18 @@
+{
+  "directories": {
+    "nginx.log": {
+      "path": "./xxx/log/nginx/tondice/web",
+      "permissions": 755
+    },
+    "public": {
+      "path": "./xxx/src/public",
+      "permissions": 755
+    }
+  },
+  "values": {
+    "nginx.domain": "xxx.xxx",
+    "nginx.workers": 1,
+    "nginx.workersConnections": 1024,
+    "tls": false
+  }
+}
