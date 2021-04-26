@@ -1,7 +1,7 @@
+import * as QR from 'qrious'
 import 'pt-root-ui-font/bold.css'
 import 'pt-root-ui-font/regular.css'
 import './styles.css'
-import * as QR from '../node_modules/qrious/dist/qrious'
 
 const href: string = window.location.href
 const url: URL = new URL(href)
