@@ -1,9 +1,11 @@
 # TON Tickets QR-generator
 ## Requirements
-* [Ubuntu](https://ubuntu.com)  >= `20.04`
-* [Docker](https://www.docker.com)  >= `20.x`
+* [Ubuntu](https://ubuntu.com) >= `20.04`
+* [Node.js](https://nodejs.org) >= `16.x`
+* [Yarn](https://classic.yarnpkg.com) >= `1.22.x`
+* [Docker](https://www.docker.com) >= `20.x`
 * [Docker Compose](https://docs.docker.com/compose/install/) >= `1.25.x`
-* [Monitoring](https://github.com/kokkekpek/monitoring)  >= `1.x`
+* [Monitoring](https://github.com/kokkekpek/monitoring) >= `1.x`
 
 ## Installation
 ```sh
