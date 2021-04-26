@@ -1,11 +1,11 @@
 {
   "directories": {
     "nginx.log": {
-      "path": "./xxx/log/nginx/tondice/web",
+      "path": "../log/nginx/nifi-tickets",
       "permissions": 755
     },
     "public": {
-      "path": "./xxx/src/public",
+      "path": "./app/public",
       "permissions": 755
     }
   },
