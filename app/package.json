@@ -1,9 +1,7 @@
 {
-  "name": "tondice",
+  "name": "nifi-tickets",
   "version": "0.1.0",
-  "description": "First dice on Free TON",
   "main": "index.js",
-  "repository": "https://github.com/kokkekpek/tondice-web",
   "author": "Kok Kek",
   "license": "MIT",
   "private": true,
