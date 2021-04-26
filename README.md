@@ -6,10 +6,10 @@
 * [Monitoring](https://github.com/kokkekpek/monitoring)  >= `1.x`
 
 ## Installation
-### Install packages
 ```sh
 cd app
 yarn install
+yarn webpack
 ```
 
 ### Copy config.example.json to config.json and edit
