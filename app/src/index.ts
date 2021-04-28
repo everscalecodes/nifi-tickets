@@ -22,12 +22,11 @@ new QR({
 })
 
 document.getElementById('link').addEventListener('click', _onClick.bind(this))
+document.getElementById('ticketId').innerText = id
 
 function _onClick() {
     const link: HTMLElement = document.getElementById('link')
     link.setAttribute('download', `${event}-${id}.png`)
     let data: string = canvas.toDataURL('image/png')
     link.setAttribute('href', data.replace('image/png', 'image/octet-stream'))
-
-    document.getElementById('list-save').classList.add('list-marked')
 }
