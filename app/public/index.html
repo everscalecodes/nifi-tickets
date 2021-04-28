@@ -6,16 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>QR code generator</title>
     <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="fonts/Roboto/index.css">
 </head>
 <body>
-    <div class="container">
-        <canvas id="canvas"></canvas>
-        <a id="link">save</a>
-        <ul class="list">
-            <li id=list-save>Save QR code
-            <li>Show QR code at event
-        </ul>
-    </div>
+<div class="ticket">
+    <header class="event">
+  <span class="title">
+      <span class="alert-text">1 <sup>st</sup></span> Anniversary
+    </span>
+
+        <span class="subtitle">
+      celebration event
+    </span>
+    </header>
+
+    <main class="description">
+        <div class="info">
+            <div class="column date">
+                <span class="secondary-text">May 7th, 2021</span>
+                <span class="secondary-text">4pm UTC +3</span>
+            </div>
+
+            <div class="column address">
+                <span class="secondary-text">Evolution Gallery</span>
+                <span class="secondary-text">Krasnopresnenskaya emb 4/1</span>
+            </div>
+        </div>
+
+        <div class="ticket-data">
+            <div class="ticket-name">
+                <span class="ticket-name__label">ticket</span>
+                <span class="ticket-name__number">#34</span>
+            </div>
+
+            <canvas id="canvas" class="qr"></canvas>
+
+            <button class="button save-button">save</button>
+        </div>
+
+        <div class="actions">
+            <span class="action">⚠️ Save QR code to your mobile</span>
+            <span class="action">⚠️ Present QR code to the controller at the event</span>
+        </div>
+    </main>
+</div>
 </body>
 <script src="bundle.js"></script>
 </html>

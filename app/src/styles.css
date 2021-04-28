@@ -1,52 +1,174 @@
-html,
-body {
-    width: 100%;
-    height: 100%;
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: PTRootUIWebRegular, sans-serif;
 }
 
-.container {
+html {
+    font-size: 18px;
+}
+@media (max-width: 450px) {
+    html {
+        font-size: 16px;
+    }
+}
+@media (max-width: 380px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 340px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 320px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    width: 100%;
+}
+
+.ticket {
+    width: 600px;
+    font-family: Roboto, sans-serif;
+}
+@media (max-width: 600px) {
+    .ticket {
+        width: 100%;
+    }
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12.78rem;
+    background-image: url("./images/header.png");
+    background-size: cover;
+    background-position: right;
+    padding: 15px 8px;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 1.775rem;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #BABABA;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12.5px 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.column {
+    display: flex;
     flex-direction: column;
 }
 
-#canvas {
-    width: 80%;
-    max-width: min(70vw, 70vh);
+.secondary-text {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #636262;
 }
 
-#link {
-    background: #17D;
-    color: #FFF;
+.alert-text {
+    display: flex;
+    position: relative;
+    color: #F86689;
+    font-size: 8rem;
+    line-height: 6.385rem;
+}
+.alert-text sup {
+    position: absolute;
+    top: -2.14rem;
+    right: -2.39rem;
+    display: block;
+    font-size: 2.665rem;
+}
+
+.address {
+    text-align: right;
+}
+
+.ticket-data {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ticket-name {
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.ticket-name__label {
+    font-size: 0.665rem;
+}
+.ticket-name__number {
+    font-size: 1.775rem;
+}
+
+.qr {
+    width: 12.83rem;
+    height: 14.34375rem;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+}
+
+.action {
+    font-size: 1rem;
+}
+
+.button {
+    background: none;
+    outline: none;
+    border: none;
+    background: #0282DF;
+    padding: 2.5px 30px;
+    font-weight: 700;
+    font-size: 1rem;
     text-transform: uppercase;
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 4px;
+    color: #fff;
+    border-radius: 5px;
+    transition: filter 0.2s;
     cursor: pointer;
-    font-family: PTRootUIWebBold, sans-serif;
+}
+.button:hover {
+    filter: opacity(0.7);
 }
 
-#link:hover {
-    background: #06B;
+.save-button {
+    margin-top: 77.5px;
+    align-self: center;
+    margin-bottom: 29px;
 }
 
-#link:active {
-    background: #059;
-}
-
-.center {
-    text-align: center;
-}
-
-.list {
-    margin-top: 2em;
-    width: 200px
-}
-
-.list-marked {
-    color: #0C0;
-}
+/*# sourceMappingURL=index.css.map */
