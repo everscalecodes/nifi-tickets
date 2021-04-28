@@ -160,6 +160,7 @@ body {
     border-radius: 5px;
     transition: filter 0.2s;
     cursor: pointer;
+    text-decoration: none;
 }
 .button:hover {
     filter: opacity(0.7);

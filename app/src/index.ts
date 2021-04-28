@@ -22,7 +22,7 @@ new QR({
 })
 
 document.getElementById('link').addEventListener('click', _onClick.bind(this))
-document.getElementById('ticketId').innerText = id
+document.getElementById('ticketId').innerHTML = id
 
 function _onClick() {
     const link: HTMLElement = document.getElementById('link')
